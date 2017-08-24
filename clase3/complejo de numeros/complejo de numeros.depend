@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1503530745 source:c:\users\alumno\desktop\sumador\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1503530768 source:c:\users\alumno\desktop\divicion\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1503532866 source:c:\users\alumno\desktop\complejo de numeros\main.c
+	<stdio.h>
+	<stdlib.h>
+

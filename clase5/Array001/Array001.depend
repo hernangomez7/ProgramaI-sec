@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1504134804 source:c:\users\alumno\desktop\array001\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1504134822 source:c:\users\alumno\desktop\array001\funciones.c
+	"funciones.h"
+
+1504134834 c:\users\alumno\desktop\array001\funciones.h
+
+1504133437 c:\users\alumno\desktop\array001\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

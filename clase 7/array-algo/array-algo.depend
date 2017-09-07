@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504740762 source:c:\users\alumno\desktop\array-algo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

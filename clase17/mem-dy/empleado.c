@@ -1,5 +1,6 @@
 #include "empleado.h"
 #include <string.h>
+#define DEBUG 1//para el debug, si es cero no aparece
 
 Empleado* empleado_new(void)
 {
@@ -11,7 +12,7 @@ Empleado* empleado_newConstructor(char* nombre,char* apellido,int idSector)
     Empleado* pEmpleado = malloc(sizeof(Empleado));
     if(pEmpleado != NULL)
     {
-        empleado_getnombre(pEmpleado,nombre);
+        empleado_setNombre(pEmpleado,nombre);
         empleado_setApellido(pEmpleado,apellido);
         empleado_setidSector(pEmpleado,idSector);
     }
@@ -95,6 +96,6 @@ void empleado_debugShow(Empleado* pEmpleado)//codigo para debug
 {
     if(pEmpleado != NULL && DEBUG)
     {
-        printf("%s-%s-%d",empl)
+        printf("\n%s-%s-%d\n",pEmpleado->nombre,pEmpleado->apellido,pEmpleado->idSector);
     }
 }

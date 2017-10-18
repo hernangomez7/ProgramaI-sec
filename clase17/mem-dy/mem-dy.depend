@@ -1,5 +1,12 @@
 # depslib dependency file v1.0
-1446667744 source:c:\users\alumno\desktop\mem-dy\main.c
+1508368626 source:c:\users\alumno\desktop\mem-dy\main.c
 	<stdio.h>
 	<stdlib.h>
+	"empleado.h"
+
+1508368394 source:c:\users\alumno\desktop\mem-dy\empleado.c
+	"empleado.h"
+	<string.h>
+
+1508368761 c:\users\alumno\desktop\mem-dy\empleado.h
 

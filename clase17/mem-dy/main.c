@@ -1,9 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define DEBUG 1//para el debug, si es cero no aparece
+
+#include "empleado.h"
 
 int main()
 {
-    printf("Hello world!\n");
+    Empleado * pEmpleado;
+    pEmpleado = empleado_newConstructor("JUAN","PEREZ",44);
+    empleado_debugShow(pEmpleado);
+    empleado_setNombre(pEmpleado,"CARLOS");
+    empleado_debugShow(pEmpleado);
+    empleado_setApellido(pEmpleado,"AP");
+    empleado_debugShow(pEmpleado);
+    empleado_setidSector(pEmpleado,87);
+    empleado_debugShow(pEmpleado);
+
+    printf("EL NOMBRE ES: %s",empleado_getnombre(pEmpleado));
     return 0;
 }

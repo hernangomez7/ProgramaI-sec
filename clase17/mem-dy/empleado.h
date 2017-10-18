@@ -25,5 +25,6 @@ char* empleado_getapellido(Empleado* pEmpleado);
 int empleado_setidSector(Empleado* pEmpleado, int idSector);
 int empleado_getidSector(Empleado* pEmpleado);
 
+Empleado* empleado_newConstructor(char* nombre,char* apellido,int idSector);
 void empleado_debugShow(Empleado* pEmpleado);
 

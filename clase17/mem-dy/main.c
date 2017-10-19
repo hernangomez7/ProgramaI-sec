@@ -1,11 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "arraylist.h"
 #include "empleado.h"
 
 int main()
 {
     int i;
+    arraylist* listaEmpleados;
+    listaEmpleados = arrayList_new();
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
     Empleado * pEmpleado[50];
 
     void *pGenerico[50];//puntero generico, guarda direcciones de memoria no importa el tipo
@@ -18,7 +39,7 @@ int main()
 
     empleado_debugShow((Empleado*)pGenerico[33]);//acepta Empleado no tipo void
 
-    /*
+
     empleado_debugShow(pEmpleado[33]);
     empleado_debugShow(pEmpleado[42]);
     empleado_setNombre(pEmpleado,"CARLOS");
@@ -28,7 +49,3 @@ int main()
     empleado_setidSector(pEmpleado,87);
     empleado_debugShow(pEmpleado);
     printf("EL NOMBRE ES: %s",empleado_getnombre(pEmpleado));*/
-
-
-    return 0;
-}

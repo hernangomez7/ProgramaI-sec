@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1508371268 source:c:\users\alumno\desktop\mem-dy\main.c
+1508375017 source:c:\users\alumno\desktop\mem-dy\main.c
 	<stdio.h>
 	<stdlib.h>
+	"arraylist.h"
 	"empleado.h"
 
 1508368394 source:c:\users\alumno\desktop\mem-dy\empleado.c
@@ -9,4 +10,11 @@
 	<string.h>
 
 1508368761 c:\users\alumno\desktop\mem-dy\empleado.h
+
+1508375005 source:c:\users\alumno\desktop\mem-dy\arraylist.c
+	"arraylist.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508375587 c:\users\alumno\desktop\mem-dy\arraylist.h
 

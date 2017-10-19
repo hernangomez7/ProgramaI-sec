@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1508368626 source:c:\users\alumno\desktop\mem-dy\main.c
+1508371268 source:c:\users\alumno\desktop\mem-dy\main.c
 	<stdio.h>
 	<stdlib.h>
 	"empleado.h"
